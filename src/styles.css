@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.rgt-footer {
+  position: sticky;
+  bottom: 0px;
+}
+
+.usernameInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.buttonRequest {
+  background-color: #1ebb6c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  width: 80%;
+}
+
+.buttonRequestfailed {
+  background-color: #145366; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  pointer-events: none;
+  width: 80%;
+}
+
+.buttonRequest:hover {
+  background-color: #145366;
+  color: white;
+}
+.zoomer {
+  width: 100%;
+}
+
+.zoomer:hover {
+}
